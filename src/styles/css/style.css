@@ -16,7 +16,7 @@
 /* @media(min-width: 1280px){} */
 
 /*sxl*/
-/* @media(min-width: 1536px){} */
+/* @media(min-width: 1440px){} */
 
 :root {
   --color-dark: #070a13;
@@ -85,6 +85,10 @@ button {
 .btn-primary {
 }
 
+.text-center{
+    text-align: center;
+}
+
 .section {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -103,6 +107,8 @@ button {
 
 .section-paragraph {
   font-size: var(--size-sm);
+  max-width: 60ch;
+  margin: 0 auto;
 }
 
 @import url(./App_/navbar.css);
