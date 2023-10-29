@@ -5,6 +5,7 @@ import Navbar from "../components/_App/Navbar"
 import HeroBanner from "../components/LandingPage/HeroBanner"
 import About from "../components/LandingPage/About"
 import Services from "../components/LandingPage/Services"
+import OurTeam from "../components/LandingPage/OurTeam"
 import Footer from "../components/_App/Footer"
 
 const IndexPage = () => (
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <HeroBanner/>
     <About/>
     <Services/>
+    {/* <OurTeam/> */}
     <Footer/>
   </Layout>
 )

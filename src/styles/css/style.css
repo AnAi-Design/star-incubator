@@ -82,8 +82,8 @@ button {
   color: inherit;
 }
 
-.btn-primary {
-}
+/* .btn-primary {
+} */
 
 .text-center{
     text-align: center;
@@ -108,7 +108,10 @@ button {
 .section-paragraph {
   font-size: var(--size-sm);
   max-width: 60ch;
-  margin: 0 auto;
+}
+
+.section-paragraph.m0-auto{
+    margin: 0 auto;
 }
 
 @import url(./App_/navbar.css);
@@ -118,6 +121,7 @@ button {
 @import url(./LandingPage/herobanner.css);
 @import url(./LandingPage/about.css);
 @import url(./LandingPage/services.css);
+@import url(./LandingPage/ourteam.css);
 
 /* MEDIA QUERIES */
 

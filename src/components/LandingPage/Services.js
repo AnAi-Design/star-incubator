@@ -17,7 +17,7 @@ const Services = () => {
             <h1 className="section-title">
               Unlock Your Potential, Ignite Your Success
             </h1>
-            <p className="section-paragraph">
+            <p className="section-paragraph m0-auto">
               Let us guide you to unleash your full potential, achieve your
               goals, and transform your aspirations into tangible results
             </p>
@@ -61,7 +61,7 @@ const Services = () => {
               </Row>
 
               {/* service - 3 */}
-              <Row className="service-item">
+              <Row>
                 <Col className="service-img-wrapper" md={6}>
                   <img className="service-img" src={Service3} alt="Hero" />
                 </Col>
