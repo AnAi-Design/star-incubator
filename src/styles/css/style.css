@@ -90,16 +90,19 @@ button {
   padding-bottom: 2rem;
 }
 
-.section-heading h4{
-
+.section-heading {
+  font-size: var(--size-xs);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #be3e82;
 }
 
-.section-title h2{
-
+.section-title {
+  font-size: var(--size-lg);
 }
 
-.section-paragraph p{
-
+.section-paragraph {
+  font-size: var(--size-sm);
 }
 
 @import url(./App_/navbar.css);
@@ -124,16 +127,48 @@ button {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+
+  .section-heading {
+    font-size: var(--size-sm);
+  }
+
+  .section-title {
+    font-size: var(--size-xl);
+  }
+
+  .section-paragraph {
+    font-size: var(--size-base);
+  }
 }
 
 /*lg*/
-/* @media(min-width: 1024px){} */
+@media (min-width: 1024px) {
+  .section-heading {
+    font-size: var(--size-base);
+  }
+
+  .section-title {
+    font-size: var(--size-3xl);
+  }
+
+  .section-paragraph {
+    font-size: var(--size-lg);
+  }
+}
 
 /*xl*/
 @media (min-width: 1280px) {
   .section {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .section-heading {
+    font-size: var(--size-lg);
+  }
+
+  .section-paragraph {
+    font-size: var(--size-xl);
   }
 }
 

@@ -15,11 +15,11 @@ const About = () => {
               <img className="about-img" src={HeroImage} alt="About" />
             </Col>
             <Col className="about-content" md={6}>
-              <h4 className = "about-heading">About</h4>
-              <h2 className="about-title">
+              <h4 className = "section-heading">About</h4>
+              <h2 className="section-title">
                 Unlock Your Potential, Ignite Your Success
               </h2>
-              <p className="about-description">
+              <p className="section-paragraph">
                 Let us guide you to unleash your full potential, achieve your
                 goals, and transform your aspirations into tangible results
               </p>
