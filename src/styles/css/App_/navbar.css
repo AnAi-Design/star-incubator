@@ -4,3 +4,32 @@
     color: var(--color-primary);
 }
 
+/*xs*/
+/* @media(min-width: 475px){} */
+
+/*sm*/
+/* @media(min-width: 640px){} */
+
+/*md*/
+@media(min-width: 768px){
+    .navbar-brand{
+        font-size: var(--size-base);
+    }
+}
+
+/*lg*/
+@media(min-width: 1024px){
+    .navbar-brand{
+        font-size: var(--size-lg);
+    }
+}
+
+/*xl*/
+@media(min-width: 1280px){
+    .navbar-brand{
+        font-size: var(--size-xl);
+    }
+}
+
+/*sxl*/
+/* @media(min-width: 1536px){} */
