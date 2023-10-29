@@ -90,12 +90,25 @@ button {
   padding-bottom: 2rem;
 }
 
+.section-heading h4{
+
+}
+
+.section-title h2{
+
+}
+
+.section-paragraph p{
+
+}
+
 @import url(./App_/navbar.css);
 @import url(./App_/footer.css);
 
 /* Landing Page Components Styles */
 @import url(./LandingPage/herobanner.css);
 @import url(./LandingPage/about.css);
+@import url(./LandingPage/services.css);
 
 /* MEDIA QUERIES */
 

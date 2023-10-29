@@ -12,7 +12,7 @@ const About = () => {
         <Container>
           <Row>
             <Col className="about-img-wrapper" md={6}>
-              <img className="about-img" src={HeroImage} alt="About Image" />
+              <img className="about-img" src={HeroImage} alt="About" />
             </Col>
             <Col className="about-content" md={6}>
               <h4 className = "about-heading">About</h4>
