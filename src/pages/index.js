@@ -3,12 +3,14 @@ import Layout from "../components/_App/layout"
 import Seo from "../components/_App/seo"
 import Navbar from "../components/_App/Navbar"
 import HeroBanner from "../components/LandingPage/HeroBanner"
+import About from "../components/LandingPage/About"
 import Footer from "../components/_App/Footer"
 
 const IndexPage = () => (
   <Layout>
     <Navbar/>
     <HeroBanner/>
+    <About/>
     <Footer/>
   </Layout>
 )

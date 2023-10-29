@@ -58,12 +58,6 @@
 }
 
 /*sxl*/
-@media(min-width: 1440px){
-    .hero-title{
-        font-size: var(--size-6xl);
-    }
-    
-    .hero-description{
-        font-size: var(--size-2xl);
-    }
-}
+/* @media(min-width: 1440px){
+
+} */
