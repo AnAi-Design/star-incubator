@@ -36,10 +36,7 @@
 }
 
 /*lg*/
-/* @media(min-width: 1024px){} */
-
-/*xl*/
-@media(min-width: 1280px){
+@media(min-width: 1024px){
     .hero-title{
         font-size: var(--size-5xl);
     }
@@ -49,5 +46,18 @@
     }
 }
 
+/*xl*/
+@media(min-width: 1280px){
+    .hero-title{
+        font-size: var(--size-5xl);
+    }
+    
+    .hero-description{
+        font-size: var(--size-xl);
+    }
+}
+
 /*sxl*/
-/* @media(min-width: 1536px){} */
+/* @media(min-width: 1440px){
+
+} */
